@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Not Hesaplama</string>
+
+    <string name="about">Hakkında</string>
+    <string name="abinside">Not Hesaplama v2.0 basit ve ücretsiz bir üniversite not hesaplama uygulamasıdır.\n\nUygulamanın kaynak kodlarına \"github.com/ErimTuzcuoglu\" adresinden erişebilirsiniz.</string>
+    <string name="vizeNotu">Vize Notu: </string>
+    <string name="finalNotu">Final Notu: </string>
+    <string name="hbnoNotu">HBNO: </string>
+    <string name="harfNotuHesaplaFragment">Harf Notu Hesapla</string>
+    <string name="ganoHesaplaFragment">Genel Ortalama Hesapla</string>
+    <string name="mevcutKredi">Alınmış Toplam Kredi: </string>
+    <string name="mevcutOrtalama">Mevcut Ortalama: </string>
+    <string name="donemDersSayisi">Dönem Ders Sayısı: </string>
+    <string name="sifirla">Temizle</string>
+    <string name="dersAdi">Ders Adı (Zorunlu Değil)</string>
+    <string name="kredi">Kredisi</string>
+    <string name="harfNotu">Harf Notu</string>
+    <string name="harfNotunuz">Harf Notunuz: </string>
+    <string name="vizeFinalOrt">Vize Final Ortalamanız: </string>
+    <string name="bagil">Bağıl Ortalamanız: </string>
+    <string name="tamam">Tamam</string>
+    <string name="lutfen">Vize-Final-HBNO 0 ile 100 arasında olmalıdır!</string>
+    <string name="lutfenDoldur">"Lütfen Alanların Hepsini Doldurunuz!"</string>
+    <string name="aralikHarfNotlari">Final Notu Aralığına Göre Harf Notları \n</string>
+
+    <string-array name="kredi">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.5</item>
+        <item>6</item>
+        <item>6.5</item>
+        <item>7</item>
+        <item>7.5</item>
+        <item>8</item>
+        <item>8.5</item>
+        <item>9</item>
+        <item>9.5</item>
+        <item>10</item>
+        <item>10.5</item>
+        <item>11</item>
+        <item>11.5</item>
+        <item>12</item>
+        <item>12.5</item>
+        <item>13</item>
+        <item>13.5</item>
+        <item>14</item>
+        <item>14.5</item>
+        <item>15</item>
+        <item>15.5</item>
+        <item>16</item>
+        <item>16.5</item>
+        <item>17</item>
+        <item>17.5</item>
+        <item>18</item>
+        <item>18.5</item>
+        <item>19</item>
+        <item>19.5</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="harfNotlar">
+        <item>AA</item>
+        <item>BA</item>
+        <item>BB</item>
+        <item>CB</item>
+        <item>CC</item>
+        <item>DC</item>
+        <item>DD</item>
+        <item>FD</item>
+        <item>FF</item>
+    </string-array>
+
+</resources>

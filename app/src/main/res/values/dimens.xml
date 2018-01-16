@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_boyutu">12dp</dimen>
+    <dimen name="text_paddingi">20dp</dimen>
+    <dimen name="textview_genisligi">70dp</dimen>
+    <dimen name="textview_genisligi_buyuk">120dp</dimen>
+    <dimen name="textview_genisligi_ekstra_buyuk">170dp</dimen>
+    <dimen name="edittxt_widthi">40dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="ara_margin">25dp</dimen>
+    <dimen name="orta_margin">40dp</dimen>
+    <dimen name="yukseklik">50dp</dimen>
+    <!--Aşağıdakiler,yukarıdaki boyutların javada kullanırken büyük görünmesinden dolayı eklenmiştir. -->
+    <dimen name="text_boyutu_kucuk">7dp</dimen>
+    <dimen name="yukseklik_kucuk">40dp</dimen>
+    <dimen name="text_paddingi_kucuk">15dp</dimen>
+</resources>

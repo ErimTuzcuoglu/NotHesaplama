@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erim.nothesaplama.GanoFragment">
+
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearLayout1"
+    android:orientation="horizontal"
+    android:weightSum="4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:id="@+id/mevcutToplamKredi"
+        android:textSize="@dimen/text_boyutu"
+        android:text="@string/mevcutKredi"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/text_paddingi"/>
+
+    <EditText
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_width="@dimen/edittxt_widthi"
+        android:layout_height="@dimen/yukseklik"
+        android:id="@+id/mevcutToplamKrediET"
+        android:inputType="numberDecimal"
+        android:layout_weight="1"
+        android:nextFocusDown="@+id/mevcutOrtalamaET"
+        android:maxLength="5"
+        android:textSize="@dimen/text_boyutu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:id="@+id/mevcutOrtalama"
+        android:textSize="@dimen/text_boyutu"
+        android:layout_weight="1"
+        android:text="@string/mevcutOrtalama"
+        android:layout_marginLeft="@dimen/margin"
+        android:paddingTop="@dimen/text_paddingi"/>
+    <EditText
+        android:layout_width="@dimen/edittxt_widthi"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_weight="1"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_boyutu"
+        android:nextFocusDown="@+id/donemDersSayisiSP"
+        android:maxLength="4"
+        android:id="@+id/mevcutOrtalamaET" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearLayout2"
+    android:layout_below="@id/LinearLayout1"
+    android:orientation="horizontal"
+    android:weightSum="4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_weight="1"
+        android:id="@+id/donemDersSayisi"
+        android:textSize="@dimen/text_boyutu"
+        android:text="@string/donemDersSayisi"
+        android:paddingTop="@dimen/text_paddingi"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_marginLeft="@dimen/margin"
+        android:id="@+id/donemDersSayisiSP"
+        android:layout_weight="1"></Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/sifirla"
+        android:layout_marginLeft="@dimen/margin"
+        android:text="@string/sifirla"
+        android:background="@color/butonArkaplani"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearLayout3"
+    android:layout_below="@+id/LinearLayout2"
+    android:orientation="horizontal"
+    android:weightSum="4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_weight="2"
+        android:id="@+id/dersAdi"
+        android:textSize="@dimen/text_boyutu"
+        android:text="@string/dersAdi"
+        android:paddingTop="@dimen/text_paddingi"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_weight="1"
+        android:id="@+id/dersKredisi"
+        android:textSize="@dimen/text_boyutu"
+        android:text="@string/kredi"
+        android:layout_marginLeft="@dimen/margin"
+        android:paddingTop="@dimen/text_paddingi"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yukseklik"
+        android:layout_weight="1"
+        android:id="@+id/dersHarfNotu"
+        android:textSize="@dimen/text_boyutu"
+        android:text="@string/harfNotu"
+        android:layout_marginLeft="@dimen/margin"
+        android:paddingTop="@dimen/text_paddingi"
+        android:visibility="invisible"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bilgilerLinearLayout"
+        android:orientation="vertical"
+        android:layout_below="@id/LinearLayout3">
+
+
+    </LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bilgilerTamamButton"
+    android:layout_below="@+id/bilgilerLinearLayout"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginBottom="@dimen/margin"
+    android:text="@string/tamam"
+    android:background="@color/butonArkaplani"
+    android:visibility="invisible"/>
+
+</RelativeLayout>
+</ScrollView>
+</FrameLayout>
